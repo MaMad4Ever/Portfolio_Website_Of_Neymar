@@ -11,19 +11,19 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Holtwood+One+SC&family=Momo+Trust+Display&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: "Momo Trust Display", sans-serif;
+                font-weight: 300;
+            }
+        </style>
     </head>
-    <style>
-        * {
-            font-family: "Momo Trust Display", sans-serif;
-            font-weight: 300;
-        }  
-                                                
-    </style>
+
     <body>
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container">
-                <a class="navbar-brand">
+                <a class="navbar-brand" href="#">
                     <img class="rounded-circle me-2" src="./assets/profile.jpg" alt="Neymar" style="width: 35px; height: 35px; object-fit: cover;" />
                     Neymar da Silva Santos Júnior
                 </a>
@@ -34,9 +34,6 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#career">Career</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#achievements">Achievements</a>
@@ -56,7 +53,7 @@
                     <div class="col-md-6">
                         <h1 class="display-4 fw-bold" style="background: linear-gradient(45deg, #FFD700, #FFA500, #FF8C00);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;display: inline-block;">Prince of Brazil</h1>
                         <h1 class="display-4 fw-bold" style="background: linear-gradient(45deg, #FFD700, #FFA500, #FF8C00);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;display: inline-block;">Neymar Jr.</h1>
-                        <p class="lead text-light">One of the greatest players of his generation and star of the Brazilian national team</p>
+                        <p class="lead text-light">Neymar proved that trophies aren't everything</p>
                         <p class="text-muted">Born February 5, 1992, Mogi das Cruzes, São Paulo, Brazil</p>
                         <div class="mt-4">
                             <a href="#about" class="btn btn-warning btn-lg me-2">Learn More</a>
@@ -84,7 +81,7 @@
                             <div class="card-body text-center">
                                 <i class="bi bi-geo-alt-fill text-warning display-4 mb-3"></i>
                                 <h4 class="card-title text-warning">Hometown</h4>
-                                <p class="card-text text-light">Neymar was born in Mogi das Cruzes, São Paulo, Brazil. His father was also a football player.</p>
+                                <p class="card-text text-light">Your hometown doesn't define your destiny.</p>
                             </div>
                         </div>
                     </div>
@@ -93,7 +90,7 @@
                             <div class="card-body text-center">
                                 <i class="bi bi-award-fill text-warning display-4 mb-3"></i>
                                 <h4 class="card-title text-warning">Brilliant Talent</h4>
-                                <p class="card-text text-light">He showed great talent from a young age, joining Santos FC at 11, where he began developing his football skills.</p>
+                                <p class="card-text text-light">Talent opens doors, but it doesn't guarantee the destination.</p>
                             </div>
                         </div>
                     </div>
@@ -102,7 +99,7 @@
                             <div class="card-body text-center">
                                 <i class="bi bi-globe text-warning display-4 mb-3"></i>
                                 <h4 class="card-title text-warning">Global Popularity</h4>
-                                <p class="card-text text-light">Neymar is one of the most popular athletes worldwide with millions of social media followers.</p>
+                                <p class="card-text text-light">From the streets of Brazil to the hearts of millions.</p>
                             </div>
                         </div>
                     </div>
@@ -110,164 +107,50 @@
             </div>
         </section>
 
-            <!-- Career Section -->
-            <section id="career" class="py-5 bg-black">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center mb-5">
-                            <h2 class="border-bottom border-warning pb-3 d-inline-block text-warning">Football Career</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <!-- Brazil National Team -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card h-100 bg-dark" style="border: 2px solid #FFDF00;">
-                                <div class="card-header text-dark d-flex align-items-center" style="background: linear-gradient(45deg, #009C3B, #FEDF00, #002776);">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png" 
-                                        alt="Brazil" class="me-2 rounded" style="width: 30px; height: 20px; object-fit: cover;">
-                                    <h4 class="mb-0">Brazil National Team (2010-Present)</h4>
-                                </div>
-                                <div class="card-body text-light">
-                                    <div class="text-center mb-3">
-                                        <img src="./assets/brazil.jpg" 
-                                            alt="Neymar Brazil" class="img-fluid rounded" style="border: 2px solid #FFDF00; max-height: 200px; object-fit: cover;">
-                                    </div>
-                                    <p>Star player and captain of the Brazilian national team:</p>
-                                    <ul>
-                                        <li>126 appearances, 79 goals (2nd all-time scorer)</li>
-                                        <li>Copa América champion (2019)</li>
-                                        <li>Olympic Gold Medal (2016)</li>
-                                        <li>FIFA Confederations Cup (2013)</li>
-                                        <li>2014 World Cup (4th place)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Santos Original -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card h-100 bg-dark border-success">
-                                <div class="card-header bg-success text-dark d-flex align-items-center">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png" 
-                                        alt="Santos" class="me-2 rounded" style="width: 30px; height: 30px; object-fit: contain;">
-                                    <h4 class="mb-0">Santos (2009-2013)</h4>
-                                </div>
-                                <div class="card-body text-light">
-                                    <div class="text-center mb-3">
-                                        <img src="./assets/santos.jpg" 
-                                            alt="Neymar young" class="img-fluid rounded" style="border: 2px solid #198754; max-height: 200px; object-fit: cover;">
-                                    </div>
-                                    <p>Neymar started his career at Brazilian club Santos and quickly became a star. During this period:</p>
-                                    <ul>
-                                        <li>Copa do Brasil champion (2010)</li>
-                                        <li>Copa Libertadores champion (2011)</li>
-                                        <li>South American Footballer of the Year (2011)</li>
-                                        <li>Campeonato Paulista (2010, 2011, 2012)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Barcelona -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card h-100 bg-dark border-info">
-                                <div class="card-header bg-info text-dark d-flex align-items-center">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/800px-FC_Barcelona_%28crest%29.svg.png" 
-                                        alt="Barcelona" class="me-2 rounded" style="width: 30px; height: 30px; object-fit: contain;">
-                                    <h4 class="mb-0">Barcelona (2013-2017)</h4>
-                                </div>
-                                <div class="card-body text-light">
-                                    <div class="text-center mb-3">
-                                        <img src="./assets/barcelona.jpg" 
-                                            alt="Neymar Barcelona" class="img-fluid rounded" style="border: 2px solid #0dcaf0; max-height: 200px; object-fit: cover;">
-                                    </div>
-                                    <p>Joined Barcelona in 2013 and formed the famous MSN trio (Messi, Suárez, Neymar):</p>
-                                    <ul>
-                                        <li>La Liga champion (2015, 2016)</li>
-                                        <li>UEFA Champions League champion (2015)</li>
-                                        <li>Copa del Rey champion (2015, 2016, 2017)</li>
-                                        <li>FIFA Club World Cup (2015)</li>
-                                        <li>Supercopa de España (2013)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- PSG -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card h-100 bg-dark border-warning">
-                                <div class="card-header bg-warning text-dark d-flex align-items-center">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/800px-Paris_Saint-Germain_F.C..svg.png" 
-                                        alt="PSG" class="me-2 rounded" style="width: 30px; height: 30px; object-fit: contain;">
-                                    <h4 class="mb-0">Paris Saint-Germain (2017-2023)</h4>
-                                </div>
-                                <div class="card-body text-light">
-                                    <div class="text-center mb-3">
-                                        <img src="./assets/psg.jpg" 
-                                            alt="Neymar PSG" class="img-fluid rounded" style="border: 2px solid #ffc107; max-height: 200px; object-fit: cover;">
-                                    </div>
-                                    <p>Joined Paris Saint-Germain in a record-breaking transfer:</p>
-                                    <ul>
-                                        <li>Ligue 1 champion (2018, 2019, 2020, 2022)</li>
-                                        <li>Coupe de France champion (2018, 2020, 2021)</li>
-                                        <li>Coupe de la Ligue (2018, 2020)</li>
-                                        <li>UEFA Champions League runner-up (2020)</li>
-                                        <li>Trophée des Champions (2018, 2019, 2020)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Al Hilal -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card h-100 bg-dark border-secondary">
-                                <div class="card-header bg-secondary text-dark d-flex align-items-center">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/250px-Al_Hilal_SFC_Logo.svg.png" 
-                                        alt="Al Hilal" class="me-2 rounded" style="width: 30px; height: 30px; object-fit: contain;">
-                                    <h4 class="mb-0">Al Hilal (2023-2024)</h4>
-                                </div>
-                                <div class="card-body text-light">
-                                    <div class="text-center mb-3">
-                                        <img src="./assets/alhilal.png" 
-                                            alt="Neymar Al Hilal" class="img-fluid rounded" style="border: 2px solid #6c757d; max-height: 200px; object-fit: cover;">
-                                    </div>
-                                    <p>Joined Al Hilal in Saudi Arabia in August 2023:</p>
-                                    <ul>
-                                        <li>Saudi Super Cup champion (2023)</li>
-                                        <li>Record transfer to Saudi Pro League</li>
-                                        <li>Brazil's all-time top scorer in national team history</li>
-                                        <li>Global ambassador for Saudi football</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Santos 2025 -->
-                        <div class="col-md-6 mb-4">
-                            <div class="card h-100 bg-dark border-success">
-                                <div class="card-header bg-success text-dark d-flex align-items-center">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/250px-Santos_Logo.png" 
-                                        alt="Santos" class="me-2 rounded" style="width: 30px; height: 30px; object-fit: contain;">
-                                    <h4 class="mb-0">Santos (2025)</h4>
-                                </div>
-                                <div class="card-body text-light">
-                                    <div class="text-center mb-3">
-                                        <img src="./assets/santosfc.jpeg" 
-                                            alt="Neymar Santos" class="img-fluid rounded" style="border: 2px solid #198754; max-height: 200px; object-fit: cover;">
-                                    </div>
-                                    <p>Returned to his boyhood club Santos FC in early 2025 after time in Saudi Arabia</p>
-                                    <ul>
-                                        <li>Possible mentoring role for young talents</li>
-                                        <li>Club legend homecoming</li>
-                                        <li>Finishing career where it all began</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <!-- Career Section -->
+        <section id="career" class="py-5 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="border-bottom border-warning pb-3 d-inline-block text-warning">Career Path</h2>
                     </div>
                 </div>
-            </section>
+                    <div class="col-md-12">
+                        <div class="card bg-black border-warning">
+                            <div class="card-body">
+                                <p class="card-text text-light">
+                                    Despite shining at Santos, he was overlooked. They said scoring goals in Brazil meant nothing. They said anyone could do it in that league.
+                                    Then, when the world's biggest stage called, fate took away his chance to finish what he had started. They said Brazil would have lost anyway, even if he had been there.
+                                    He moved to Barcelona, and they said he was living in Messi’s shadow.
+                                    He moved to Paris, and they called it a mistake.
+                                    Every time he got injured, they blamed him. They said he was wasting his talent, destroying his future, throwing away his prime.
+                                    At every World Cup he played, fate seemed to find another way to break his heart. And when his body failed him, they gave him another name: <b>Injury-prone.</b>
+                                    When he chased a different path, they called him money-hungry.
+                                    They questioned his decisions, mocked his tears, criticized his lifestyle, and judged his failures as if they had never dreamed of anything themselves.
+                                    But they forgot something.
+                                    <b>Neymar was never just a footballer chasing trophies. He was a boy who made the world fall in love with football through his magic.</b>
+                                    And when he returned to Santos after his time in Saudi Arabia, the story took another turn.
+                                    He returned to the club where it all began, not to silence the critics with words, but to fight for the team that had given him his first chance. Santos were fighting to survive, and Neymar fought alongside them.
+                                    He played through pain, carried the weight of expectations, and faced the impossible choice between saving his club and protecting his dream of one more World Cup.
+                                    For a man who had already given so much to football, he had every reason to walk away.
+                                    But he stayed and fought.
+                                    Not because the world believed in him.
+                                    <b>But because he still believed in himself.</b>
+                                    Perhaps he will never win every trophy they expected him to win. Perhaps his career will always be remembered for the injuries, the what-ifs, and the dreams that slipped away.
+                                    But tell me something:
+                                    How do you measure a player who made millions stand up from their seats? Who turned defenders into spectators? Who made the impossible look effortless? Who made an entire generation fall in love with the beautiful game?
+                                    How do you measure a career with trophies alone?
+                                    The world kept asking Neymar to prove himself.
+                                    He did it with every dribble, every comeback, every moment of magic.
+                                    And even when fate refused to give him the ending he deserved, he kept writing his story.
+                                    <b>They may remember the trophies he didn't win.</b>
+                                    <b>But we will remember the magic they could never take away.</b>
+                                    You are not defined only by what you achieve, but also by everything you gave to become who you are.
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
 
     <!-- Achievements Section -->
         <section id="achievements" class="py-5 bg-dark">
@@ -373,8 +256,7 @@
                         <div class="card bg-warning text-dark">
                             <div class="card-body">
                                 <h3 class="card-title">National Team Records</h3>
-                                <p class="card-text display-6">Brazil’s all-time top scorer with 82 goals</p>
-                                <p class="card-text">(Before: Pelé with 77 goals)</p>
+                                <p class="card-text display-6">Brazil’s all-time top scorer with 80 goals</p>
                             </div>
                         </div>
                     </div>
@@ -418,7 +300,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h5 class="text-warning">About Neymar</h5>
-                        <p>Neymar da Silva Santos Júnior, Brazilian professional footballer who plays as a forward for Al Hilal and the Brazil national team.</p>
+                        <p>Brazilian footballer whose extraordinary talent, unforgettable magic, and relentless pursuit of his dreams made him a global icon. His story is a reminder that greatness is not measured by trophies alone, but by the impact you leave on the world.</p>
                     </div>
                 </div>
                 <hr class="my-4 bg-warning">
